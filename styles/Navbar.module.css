@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: snow;
+    position: relative;
+}
+.logoContainer{
+    width: 130px;
+    background-color: white;
+    border: 1px solid blue;
+    margin-left: 100px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.nav{
+    color: black;
+    margin-right:20px ;
+    position: sticky;
+    font-family: sans-serif;
+}
+.nav:hover{
+    color: blue;
+}
+.text0{
+    color: blue;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.logo1{
+    font-size:25px;
+    color: black;
+    font-family: sans-serif;
+}
+/* .logo1 text1{
+    color: black;
+} */
+.mainNav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap:30px;
+    font-size: 20px;
+    margin-right: 100px;
+}
