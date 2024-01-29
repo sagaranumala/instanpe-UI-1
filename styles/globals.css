@@ -231,7 +231,7 @@ li:hover {
 }
 .hero{
   display: flex;
-  width:100%;
+  width:100vw;
   /* width:1700px !important; */
   background-color: white;
 }
@@ -269,7 +269,7 @@ li:hover {
  font-size: 45px;
  width: 600px;
  height: 290px;
- color: rgb(32, 32, 240);
+ color: rgb(91, 32, 240);
  /* color: rgb(222, 85, 35); */
 }
 .text2-left{
@@ -287,7 +287,7 @@ li:hover {
   width: 150px;
   height: 50px;
   color: white;
-  background-color: rgb(32, 32, 240);
+  background-color: rgb(91, 32, 240);
   /* background-color:rgb(222, 85, 35); */
   border: none;
   font-weight: lighter;
@@ -386,7 +386,7 @@ li:hover {
 .hero2-box3-box2{
   background-color: rgb(49, 49, 238);
   width: 160px;
-  height: 100px;
+  height: 120px;
   border-radius: 5px;
   padding: 20px;
 }
@@ -400,6 +400,7 @@ li:hover {
   margin-top: 30px;
 }
 .hero2-text3{
+  margin-top: 20px;
   color: white;
   font-family: sans-serif;
 }
@@ -735,6 +736,7 @@ li:hover {
 .box2-left{
   width: 600px;
   height: 800px;
+  position: relative;
 }
 .box2-cards{
   height: 600px;
@@ -1285,16 +1287,18 @@ animation-iteration-count:1;
 
 .dropdown {
   display: block;
-  width: 42px;
+
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px; 
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 99;
+}
+.product{
+  z-index: -1;
 }
 
 .dropdown-content span {

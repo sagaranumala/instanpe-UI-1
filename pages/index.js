@@ -1,34 +1,16 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '../styles/Home.module.css'
-import { useState } from 'react'
-import ImageSlider from './components/ImageSlider'
+import React from 'react'
+import Page from './components/HomeComponents/page'
+import Page1 from './components/HomeComponents/page1'
+import Page2 from './components/HomeComponents/page2'
 
-
-const inter = Inter({ subsets: ['latin'] })
-
-
-
-export default function Home() {
-  
-
+const index = () => {
   return (
-    <div className={styles.main}>
-        <ImageSlider/>
+    <div>
+        <Page/>
+        <Page1/>
+        <Page2/>
     </div>
-  );
+  )
 }
 
-{/* <header className="App-header">
-        <div
-          className="menu"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          <span>Dropdown Menu</span>
-           <DropdownMenu />
-          {isDropdownVisible && DropdownMenu()}
-        </div>
-      </header> 
-    */}
+export default index

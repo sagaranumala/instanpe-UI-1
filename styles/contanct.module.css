@@ -1,0 +1,137 @@
+.contact{
+   
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    
+}
+.help{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.wellcome{
+    font-weight: 500;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+.box1{
+    margin-left: 100px;
+    display: flex;
+    gap:100px;
+}
+.text5{
+    font-size: 25px;
+    color: blueviolet;
+}
+.line{
+    height: 1px;
+    width: 1400px;
+    background-color: gray;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.box1Left p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 20;
+}
+.box1Left{
+    display: flex;
+    font-family: sans-serif;
+    gap:20px;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    width: 600px;
+    height: 150px;
+}
+ .containerLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    height: 500px;
+    background-color: #2a51c5;
+}
+.titleBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.title{
+    font-size: 60px;
+    color: #2a51c5;
+    font-family: sans-serif;
+    color: yellow
+    
+}
+.text2{
+    width: 400px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.text6{
+    color:rgb(91, 32, 240);
+}
+.contact{
+    display: flex;
+}
+
+.contactImg{
+    z-index: 99;
+} 
+
+.iconCotainer{
+   display: flex;
+   gap:10px;
+   align-items: center;
+}
+.adressContainer{
+    display: flex;
+   margin-left: 200px;
+   margin-top: 50px;
+   margin-right: 100px;
+}
+.adressBox{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 600px;
+    
+}
+.adressBox span{
+    color: gray;
+    font-size: 20px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.adressLeft h2{
+   color: rgb(91, 32, 240);
+   font-family: sans-serif;
+   margin-bottom: 10px;
+}
+.text7{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(91, 32, 240);
+}
+.adressRight{
+    position: relative;
+    height: 400px;
+    width:500px;
+    background-color: aqua;
+}
+.adress{
+    position: absolute;
+    margin: 5px;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+}

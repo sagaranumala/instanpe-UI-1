@@ -8,41 +8,21 @@ export default function Navbar() {
      const { data: session, status } = useSession()
      console.log(status)
 
-     function DropdownMenu () {
-        return (
-          
-        <div className="dropdown-menu">
-            <ul>
-              <li>Menu 1</li>
-              <li>Menu 2</li>
-             
-            </ul>
-        </div>
-        
-        );
-      };
-      
-        const [isDropdownVisible, setDropdownVisible] = useState(false);
-      
-        const handleMouseEnter = () => {
-          setDropdownVisible(true);
-        };
-      
-        const handleMouseLeave = () => {
-          setDropdownVisible(false);
-        };
-      
-    
+
   return (
     <div className={styles.header}>
+      
         <div className={styles.logoContainer}>
-          <h1 className={styles.logo1}>
+          {/* <h1 className={styles.logo1}>
              <span className={styles.text0}>in</span>stanpe
-           </h1>
+           </h1> */}
+          <img src="/instanpe-logo.png" alt="Italian Trulli"/>
         </div>
+      
+       <div className={styles.headerRight}>
         <div className={styles.mainNav}>
             <h2>{session?.user?.email}</h2>
-            <div className='drop'>
+            <div>
                 <Link href='/'>
                 <div class="dropdown">
                   <span className={styles.nav}>Home</span>
@@ -55,28 +35,34 @@ export default function Navbar() {
                 </Link>
             </div>
             <div>
-                <Link href='/page/product'>
-                    <span className={styles.nav}>Product</span> 
+                <Link href='/pages/product'>
+                    <div className={styles.nav}>Product</div> 
                 </Link>
             </div>
             <div>
-                <Link href='/page/company'>
-                <span className={styles.nav}>Company</span>
+                <Link href='/pages/company'>
+                <div className={styles.nav}>Company</div>
                 </Link>
             </div>
             <div>
-                <Link href='/page/resources'>
-                <span className={styles.nav}>Resources</span>
+                <Link href='/pages/resources'>
+                   <div className={styles.nav}>Resources</div>
                 </Link>
             </div>
             <div>
-                <Link href='/page/contact'>
-                <span className={styles.nav}>Contact Us</span>
+                <Link href='/pages/contact'>
+                <div className={styles.nav}>Contact Us</div>
                 </Link>
             </div>
-             
-    
+            
         </div>
+        <div>
+               <button  class="hero-btn1">
+                Sign Up 
+               </button>
+            </div>
+        </div>
+        
     </div>
 
   )
