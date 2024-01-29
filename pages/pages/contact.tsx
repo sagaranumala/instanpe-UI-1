@@ -1,8 +1,15 @@
+'use client'
+
 import React from 'react'
 import styles from "../../styles/contanct.module.css"
 import Image from 'next/image'
 import MailIcon from '@mui/icons-material/Mail';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import dynamic from "next/dynamic";
+
+const Map = dynamic(() => import('../Map'), { 
+     ssr: false 
+   });
 
 const Contact = () => {
   return (
@@ -62,15 +69,18 @@ const Contact = () => {
                   </div>
               </div>
               <div className={styles.adressRight}>
-                   <div className={styles.adress}>
-                       <div className={styles.adressHead}><span>Meera One</span></div>
-                      <span>WMFC+P24, Service Rd,</span>
-                      <span>Green Glen Layout, Bellandur,</span>
-                      <span>Bengaluru, Karnataka 560103</span>   
-                   </div>
-              </div>
-        </div>
-        <div className={styles.line}></div>
+               <div className=''>
+                    <Map center={[17.4478, 78.3861]}/>
+               </div>  
+               <div className={styles.adress}>
+                    <div className={styles.adressHead}><span>Meera One</span></div>
+                    <span>WMFC+P24, Service Rd,</span>
+                    <span>Green Glen Layout, Bellandur,</span>
+                    <span>Bengaluru, Karnataka 560103</span>   
+               </div>
+         </div>
+   </div>
+   <div className={styles.line}></div>
     </div>
   )
 }

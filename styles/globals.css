@@ -1306,3 +1306,8 @@ animation-iteration-count:1;
 .dropdown-content span:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
+
+.map{
+  height: 50vh;
+  border-radius: 0.5rem;
+}
