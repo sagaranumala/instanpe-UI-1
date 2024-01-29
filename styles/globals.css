@@ -79,11 +79,6 @@
   margin: 0;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
 
 body {
   /* color: rgb(var(--foreground-rgb));
@@ -699,7 +694,7 @@ li:hover {
   background-color: aquamarine;
 }
 .xy{
-  height: 2500px;
+
   min-width: 1500px;
   /* width: 1700px !important; */
   background-color: #F5F6FA;
@@ -851,7 +846,6 @@ background-color: blue;
   display: flex;
 }
 .box4{
-  height: 1200px;
   display: flex;
 }
 .box4-b3,.box4-text2{

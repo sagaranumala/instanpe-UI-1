@@ -63,8 +63,10 @@ const Contact = () => {
               </div>
               <div className={styles.adressRight}>
                    <div className={styles.adress}>
-                       
-
+                       <div className={styles.adressHead}><span>Meera One</span></div>
+                      <span>WMFC+P24, Service Rd,</span>
+                      <span>Green Glen Layout, Bellandur,</span>
+                      <span>Bengaluru, Karnataka 560103</span>   
                    </div>
               </div>
         </div>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import {signIn,signOut,useSession} from "next-auth/react"
 import styles from '../../styles/Navbar.module.css'
 
-export default function Navbar() {
+export default function Header() {
     console.log(process.env.GOOGLE_ID);
      const { data: session, status } = useSession()
      console.log(status)

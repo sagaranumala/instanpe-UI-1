@@ -133,5 +133,11 @@
     margin: 5px;
     height: 100px;
     width: 200px;
+    padding-left: 10px;
     background-color: white;
+}
+.adressHead{
+    font-family: sans-serif;
+    margin-top: 10px;
+    
 }
