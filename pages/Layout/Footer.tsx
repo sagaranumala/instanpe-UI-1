@@ -36,6 +36,7 @@ const Footer = () => {
           </div>
           <div className={styles.bottom}>2024, All rights reserved</div>
       <div className='adding image section'></div>
+      <div className='adding multimedia section'></div>
     </section>
   )
 }
