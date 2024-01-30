@@ -1,0 +1,25 @@
+.footer{
+
+}
+.footerBox{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerBox h1{
+    color: rgba(0, 0, 0, 0.694);
+}
+.footerBox h1:hover{
+     cursor: pointer;
+    color:blue;
+}
+.footerBox1{
+    width: 300px;
+    color:gray;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
