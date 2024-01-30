@@ -35,6 +35,7 @@ const Footer = () => {
               <EmailIcon className={styles.icons}/>
           </div>
           <div className={styles.bottom}>2024, All rights reserved</div>
+        <div className='red-rose-500'></div>
     </section>
   )
 }
