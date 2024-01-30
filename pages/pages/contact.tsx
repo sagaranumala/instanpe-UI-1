@@ -36,7 +36,7 @@ const Contact = () => {
                  <Image
                      src="/contact-img.jpg"
                      width={800}
-                     height={500}
+                     height={600}
                      alt='contact'
                   />
                  </div>

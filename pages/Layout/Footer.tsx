@@ -10,8 +10,10 @@ const Footer = () => {
   return (
     <section className={styles.footer}>
           <div className={styles.footerBox}>
-              <div>
+              <div className='red-rose-500'>
                     <img src="/instanpe-logo.png" alt="Italian Trulli"/>
+              </div>
+              <div>
               </div>
               <div className={styles.footerBox1}>
                   <div><h1>General</h1></div>
