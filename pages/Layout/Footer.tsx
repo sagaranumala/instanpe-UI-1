@@ -33,6 +33,7 @@ const Footer = () => {
               <EmailIcon className={styles.icons}/>
           </div>
           <div className={styles.bottom}>2024, All rights reserved</div>
+      <div className='adding image section'></div>
     </section>
   )
 }
