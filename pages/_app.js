@@ -3,6 +3,8 @@ import Header from './Layout/Header'
 import '../styles/globals.css'
 import '../styles/login.module.css'
 import {useRouter} from 'next/router'
+import Footer from '../pages/Layout/Footer'
+
 
 import {motion,AnimatePresence} from 'framer-motion'
 
@@ -21,6 +23,7 @@ export default function App({ Component, pageProps: { session, ...pageProps }, }
                  >
                           <Header/>
                           <Component {...pageProps} />
+                          <Footer/>
                      </motion.div>
                 </AnimatePresence>
     </SessionProvider>

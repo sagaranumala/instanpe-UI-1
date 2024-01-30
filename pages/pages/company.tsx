@@ -1,12 +1,11 @@
 import React from 'react'
+import ImageSlider from '../components/ImageSlider'
+
 
 const Company = () => {
   return (
     <div>
-        <h1>Company</h1>
-        <h1>Company</h1>
-        <h1>Company</h1>
-        <h1>Company</h1>
+       <ImageSlider/>
     </div>
   )
 }

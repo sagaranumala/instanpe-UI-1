@@ -1,5 +1,5 @@
 import React from 'react'
-import Page from './components/HomeComponents/page'
+import Page from './components/HomeComponents/Page'
 import Page1 from './components/HomeComponents/page1'
 import Page2 from './components/HomeComponents/page2'
 

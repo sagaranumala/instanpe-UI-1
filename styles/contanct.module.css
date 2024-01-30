@@ -123,21 +123,34 @@
     color: rgb(91, 32, 240);
 }
 .adressRight{
-    position: relative;
-    height: 400px;
+    height: 500px;
     width:500px;
-    background-color: aqua;
+    border: 1px solid blue;
+    border-radius: 20px;
+} 
+.map{
+    z-index: 1;
+    height: 350px;
 }
 .adress{
-    position: absolute;
-    margin: 5px;
     height: 100px;
-    width: 200px;
+    width: 500px;
     padding-left: 10px;
-    background-color: white;
+}
+.adress span{
+    font-family: sans-serif;
+    color: gray;
 }
 .adressHead{
     font-family: sans-serif;
     margin-top: 10px;
+    color: rgb(91, 32, 240);
+    margin-bottom: 5px;
     
+}
+.adressLink{
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: rgb(91, 32, 240);
+    margin-bottom: 5px;
 }

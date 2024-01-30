@@ -24,7 +24,7 @@ export default function Header() {
             <h2>{session?.user?.email}</h2>
             <div>
                 <Link href='/'>
-                <div class="dropdown">
+                <div className="dropdown">
                   <span className={styles.nav}>Home</span>
                     <div className='dropdown-content'>
                        <span>Link 1</span>
@@ -57,7 +57,7 @@ export default function Header() {
             
         </div>
         <div>
-               <button  class="hero-btn1">
+               <button  className="hero-btn1">
                 Sign Up 
                </button>
             </div>
