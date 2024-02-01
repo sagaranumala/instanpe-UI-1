@@ -4,6 +4,10 @@ import '../styles/globals.css'
 import '../styles/login.module.css'
 import {useRouter} from 'next/router'
 import Footer from '../pages/Layout/Footer'
+import { React, useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 import {motion,AnimatePresence} from 'framer-motion'
@@ -12,6 +16,12 @@ import { SessionProvider, useSession } from "next-auth/react";
 export default function App({ Component, pageProps: { session, ...pageProps }, }) {
       const router=useRouter();
       const transition ={type:'spring',duration:3}
+      useEffect(() => {
+        AOS.init({
+             duration: 800,
+             once: false,
+           })
+     }, [])
   return (
     <SessionProvider session={session}>
                 <AnimatePresence>

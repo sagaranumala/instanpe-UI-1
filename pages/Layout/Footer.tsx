@@ -25,13 +25,13 @@ const Footer = () => {
                   <div>Privacy Policy</div>
                   
               </div>
-              
-          </div>
-          <div className={styles.footerIcons}>
+              <div className={styles.footerIcons}>
               
               <LinkedInIcon className={styles.icons}/>
               <EmailIcon className={styles.icons}/>
           </div>
+          </div>
+          
           <div className={styles.bottom}>2024, All rights reserved</div>
     </section>
   )

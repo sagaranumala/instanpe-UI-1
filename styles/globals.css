@@ -1311,3 +1311,227 @@ animation-iteration-count:1;
   height: 50vh;
   border-radius: 0.5rem;
 }
+
+
+
+
+
+.Testimonials{
+  display: flex;
+  height: 500px;
+  padding: 50px;
+  gap:1rem;
+  flex-direction: row;
+  
+  background-color: lightgray;
+}
+.left-t{
+   display: flex;
+   flex: 1 1;
+   gap:2rem;
+   flex-direction: column;
+   text-transform: uppercase;
+   color: black;
+}
+.left-t span{
+  font-family: sans-serif;
+}
+.left-t>:nth-child(1){
+   color: blueviolet;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+.left-t>:nth-child(2),.left-t>:nth-child(3){
+   font-weight: bold;
+   font-size: 3rem;
+}
+.left-t>:nth-child(4){
+  text-transform: none;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.right-t{
+  flex:1;
+  position: relative;
+}
+.right-t>img{
+   position: absolute;
+   width: 17rem;
+   height: 20rem;
+   object-fit: cover;
+   right: 8rem;
+   top:2rem;
+}
+.right-t>:nth-child(1){
+   position: absolute;
+   width: 17rem;
+   height: 20rem;
+   border: 2px solid blueviolet;
+   background-color: transparent;
+   right: 9rem;
+   top:0.9rem;
+}
+.right-t>:nth-child(2){
+   position: absolute;
+   width: 17rem;
+   height: 20rem;
+   right: 7rem;
+   top:4rem;
+   right: 5rem;
+   background-color: blueviolet;
+
+}
+.stroke-text{
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin-right: 20px;
+}
+.right-t>:nth-child(3){
+  position: absolute;
+  width: 17rem;
+  height: 19rem;
+  right: 7rem;
+  top:2.2rem;
+}
+.arrows{
+   display: flex;
+   gap:1rem;
+   position: absolute;
+   bottom: 1rem;
+   left:3rem;
+}
+.arrows>img{
+   width: 1.5rem;
+   cursor: pointer;
+   color: gray;
+}
+@media screen and (max-width:768px) {
+   .Testimonials{
+       flex-direction: column;
+   }
+   .left-t>:nth-child(2),.left-t>:nth-child(3){
+       font-size: xx-large;
+   }
+   .right-t{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 2rem;
+   }
+   .right-t>div{
+       position: relative;
+       display: none;
+   }
+   .right-t>img{
+       top:0;
+       right: 0;
+       position: relative;
+       align-self: center;
+   }
+   .right-t>:last-child{
+       display: block;
+       bottom:0;
+       left: 0;
+   }
+   .arrows>:nth-child(2){
+       margin-left: 1rem;
+   }
+}
+
+
+/* Clients */
+
+.clients h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: blueviolet;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.clientLogos{
+
+  display: flex;
+  justify-content: space-between;
+  gap:100px;
+  margin: 100px;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+body {
+  background-color: var(--backgroundColor);
+}
+
+.hero__header {
+  height: 300px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero__header h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: var(--headlineBig);
+  color: var(--primaryTextColor);
+}
+
+.hero__header h2 {
+  letter-spacing: var(--headlineSmall);
+  font-size: var(--headlineSmall);
+  text-transform: uppercase;
+  color: var(--primaryColor);
+}
+
+.scroll-section-outer {
+  overflow: hidden;
+}
+
+.scroll-section-inner {
+  height: 300px;
+  width: 120vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.scroll-section {
+  background-color: blue;
+  height: 300px;
+ gap:120px;
+ margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.scroll-section h3 {
+  color: var(--primaryTextColor);
+  letter-spacing: var(--headlineMedium);
+  font-size: var(--headlineMedium);
+  text-transform: uppercase;
+}
+
+/* .footer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: var(--headlineBig);
+  color: var(--primaryTextColor);
+} */
