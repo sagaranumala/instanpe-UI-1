@@ -1,6 +1,6 @@
 .contact{
    
-    width:100vw;
+    width:100%;
     display: flex;
     flex-direction: column;
 }
@@ -58,7 +58,7 @@
     align-items: center;
     gap:50px;
     height: 500px;
-    background-color: #2a51c5;
+    background-color: var(--violetB);
 }
 .titleBox{
     display: flex;

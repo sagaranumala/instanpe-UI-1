@@ -23,14 +23,14 @@ const Clients = () => {
                    height={100}
                    width={200}
                    src="/client4.png" alt="" />
-             <Image
+             {/* <Image
                    height={100}
                    width={150}
                    src="/client3.png" alt="" />
              <Image
                    height={100}
                    width={150}
-                   src="/client5.png" alt="" />
+                   src="/client5.png" alt="" /> */}
              </div>
      </div>
   )

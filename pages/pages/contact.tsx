@@ -13,6 +13,10 @@ const Map = dynamic(() => import('../Map'), {
 
 const Contact = () => {
   return (
+     <div>
+          <div className="w-52 h-52 bg-black">
+                         Hello world!
+          </div>
     <div className={styles.contact}>
          <div className={styles.container}>
               <div className={styles.containerLeft}>
@@ -20,6 +24,9 @@ const Contact = () => {
                     <div className={styles.title}>
                       <span className={styles.text1}> Instan</span>pe Digital Systems Pvt.Ltd
                     </div>
+                    <h1 className="text-3xl ">
+                         Hello world!
+                     </h1>
                  </div>
                  <div>
                      <span className={styles.wellcome}>
@@ -64,7 +71,7 @@ const Contact = () => {
                       <span>Meera One,3rd floor</span>
                       <span>Image garden road,Madhapur</span>
                       <span>Hyderabad, Telangana, India, 500081</span>
-                      <span>CIN: U67190KA2012PTC176031</span>
+                      {/* <span>CIN: U67190KA2012PTC176031</span> */}
                       <div className={styles.iconCotainer}><LocationOnIcon style={{ color: "rgb(91, 32, 240)",fontSize:"35px" }}/><div className={styles.text7}><a target="_blank" href="https://www.google.com/maps/place/Meera+One/@17.4478225,78.3861128,15z/data=!4m6!3m5!1s0x3bcb91a4be70cd0f:0xc1edf7c8790ef29!8m2!3d17.4478225!4d78.3861128!16s%2Fg%2F11pw4c2cfj?entry=ttu" rel="noopener noreferrer">View in maps </a></div></div>
                   </div>
               </div>
@@ -86,6 +93,7 @@ const Contact = () => {
          </div>
    </div>
    <div className={styles.line}></div>
+    </div>
     </div>
   )
 }

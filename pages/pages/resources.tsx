@@ -12,7 +12,7 @@ const Resources = () => {
        {/* <ImageSlider/> */}
        <Testimonials/>
        <Clients/>
-      <ScrollSection/>
+     
    </div>
   )
 }

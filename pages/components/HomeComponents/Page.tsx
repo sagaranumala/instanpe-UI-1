@@ -4,7 +4,8 @@ const Hero = () => {
   return (
     <section className="hero">
         <div className="hero-left anim1">
-            <img  data-aos="fade-left" src="https://img.freepik.com/free-vector/e-wallet-concept-illustration_114360-7561.jpg?size=626&ext=jpg&ga=GA1.1.1961434237.1702448463&semt=ais" alt="" />
+            <img  data-aos="fade-left"
+             src="https://img.freepik.com/free-vector/e-wallet-concept-illustration_114360-7561.jpg?size=626&ext=jpg&ga=GA1.1.1961434237.1702448463&semt=ais" alt="" />
         </div> 
 
         <div className="right-hero">
